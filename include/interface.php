@@ -11,6 +11,10 @@ Membre::connexionAutomatique();
 //  Comptabilisation des visites
 StatVisite::comptabiliser();
 
+
+// Comptabilisation de l'appel
+StatPage::comptabiliser();
+
 ?>
 <!DOCTYPE HTML>
 <html lang="fr">

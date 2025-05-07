@@ -2,10 +2,6 @@
 // activation du chargement dynamique des ressources
 require $_SERVER['DOCUMENT_ROOT'] . "/include/autoload.php";
 
-//  Comptabilisation de l'appel
-StatPage::comptabiliser("Accueil");
-
-
 
 // chargement des données
 

@@ -43,7 +43,7 @@ const table = new Tabulator("#table", {
 
 // Export CSV
 document.getElementById("btnExporter").addEventListener("click", () => {
-    table.download("csv", "statistiques au " + date + ".csv");
+    table.download("csv", "Rtistiques au " + date + ".csv");
 });
 
 
